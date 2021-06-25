@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <script>
@@ -18,95 +19,10 @@ function lw()
 }
 </script>
 
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/996973c893.js" crossorigin="anonymous"></script>
 
-
-
-
-
-<style>
-:root{
-  /*  Black */
-  --left-color: #543077;
-  /*  Red  */
-  --right-color: #57131e;
-}
-body{
-  font-family: 'Helvetica Neue', sans-serif;
-  letter-spacing: 1.5px;
-  color: white;
-  background-image: linear-gradient(to right, var(--left-color), var(--right-color));
-}
-.container{
-  width: 60%;
-  height: 65%;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 2px 10px 40px rgba(22,20,19,0.4);
-  padding: 8px 8px;
-  float:left;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  flex: 1;
-}
-footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: auto;
-}
-input[type=text], select {
-  width: 70%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #dcdcdc;
-  border-radius: 8px;
-  outline: none;
-}
-input[type=text]:focus {
-  border: 2px solid var(--right-color);
-}
-#submit {
-  width: 30%;
-  height: 8%;
-  background-color: #ba2d25;
-  color: white;
-  font-size: 14px;
-  padding: 10px 10px;
-  margin: 5px 0;
-  border: none;
-  border-radius: 15px;
-  cursor: pointer;
-  letter-spacing: 1px;
-}
-#submit:hover {
-  background-color: #317392;
-}
-h1{
-font-size: 42px;
-text-shadow: 2px 2px 2px rgba(65, 43, 32, 0.4);
-color: var(--right-color);
-}
-div#output{
-  width: 99%;
-  padding: 5px 5px;
-  margin: 5px 0px;
-  border-radius: 8px;
-  background-color: rgb(46, 124, 175);
-  text-shadow: 0px;
-  position: absolute;
-  left: 0;
-  right: 0;
-}
-</style>
 </head>
-
-
-
 <body>
 
 <div class="container">
@@ -115,8 +31,8 @@ div#output{
 <br>
 <img src="https://cdn.dribbble.com/users/1008970/screenshots/6140230/blog_post_docker.gif" width="160" height="150">
 <br>
-<h1>Enter Docker Commands</h1>
-<input type= "text" id="command" placeholder= "Enter command...">
+<h1>Enter Linux Commands</h1>
+<input type= "text" id="command" placeholder= "Enter Command...">
 <br><br>
 <button id="submit" onclick="lw()">Display</button>
 <br>
@@ -125,25 +41,22 @@ div#output{
 </div>
 
 </center>
-</div>
 
 <footer>
   <div class="footer-coded-by">
       <p>
         <div style="font-size: 15px; text-align: center ;" >
         </div> 
-        <i class="fas fa-code"></i> with 💙 by Abhishek Dwibedy &copy; 2021
+        <i class="fas fa-code"></i> With <3 Abhishek Dwibedy ; 2021
       </p>
       <p>Built with pure HTML, CSS and JavaScript</p>
-  </div>
-  <div class="footer-social">
-      <a href="https://www.linkedin.com/in/abhishekdwibedy/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/abhishekdwibedy-2002" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/TirthPa30981563" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/abhishekdwibedy/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="https://github.com/abhishekdwibedy-2002" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+      <a href="https://www.instagram.com/abhishek_dwibedy/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
       
   </div>
 </footer>
 
-
+</div>
 </body>
 </html>
